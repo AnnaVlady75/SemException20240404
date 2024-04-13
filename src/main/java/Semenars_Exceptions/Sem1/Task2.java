@@ -1,4 +1,4 @@
-package org.SemExceptions;
+package Semenars_Exceptions.Sem1;
 //Реализуйте метод,
 //        принимающий в качестве аргумента целочисленный массив и некоторое значение.
 //        Метод ищет в массиве заданное значение и возвращает его индекс. При этом, например:
@@ -7,6 +7,7 @@ package org.SemExceptions;
 //        3. если вместо массива пришел null, метод вернет -3
 public class Task2 {
     public static void main(String[] args) {
+
         System.out.println(getElemIndexArray (new int[]{1,2,9,78,7,15,35},1,2));
     }
     public static int getElemIndexArray(int[] array, int elem, int min){

@@ -1,4 +1,4 @@
-package org.SemExceptions;
+package Semenars_Exceptions.Sem1;
 
 import java.util.ArrayList;
 
@@ -12,6 +12,7 @@ import java.util.ArrayList;
 //        то идеально было бы все их “подсветить”
 public class Task4 {
     public static void main(String[] args) {
+
         checkArray(new Integer[]{12,45,3,2,6,null,76,null,54});
     }
     public static void checkArray(Integer[] arr){
